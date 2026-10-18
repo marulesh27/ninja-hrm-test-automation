@@ -68,8 +68,7 @@ public class Baseclass {
         	System.out.println("Logout executed");
     	}
 	}
-
-    }
+   
     @AfterClass
     public void afterClass() {
         System.out.println("Class execution completed");
@@ -84,6 +83,4 @@ public class Baseclass {
     public void afterSuite() {
         System.out.println("Suite execution completed");
     }
-
-
 }
