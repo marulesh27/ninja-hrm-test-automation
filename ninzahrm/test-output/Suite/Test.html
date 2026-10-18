@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 18 06:34:58 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>69 seconds (69826 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>functional integration </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ninzahrm.dashboard.DashboardTest.verifyEmployeeTable()'><b>verifyEmployeeTable</b><br>Test class: ninzahrm.dashboard.DashboardTest<br/>
+<a href="#Output-606826010" onClick='toggleBox("Output-606826010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-606826010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-606826010">
+Employee table structure and data verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ninzahrm.dashboard.DashboardTest@3bd82cf5</td></tr>
+<tr>
+<td title='ninzahrm.dashboard.DashboardTest.verifyDashboardNavigation()'><b>verifyDashboardNavigation</b><br>Test class: ninzahrm.dashboard.DashboardTest<br/>
+<a href="#Output-1278196189" onClick='toggleBox("Output-1278196189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1278196189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1278196189">
+Navigation from Employees to Dashboard verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ninzahrm.dashboard.DashboardTest@3bd82cf5</td></tr>
+<tr>
+<td title='ninzahrm.employee.EmployeeTest.deleteEmployee()'><b>deleteEmployee</b><br>Test class: ninzahrm.employee.EmployeeTest<br/>
+<a href="#Output-668754554" onClick='toggleBox("Output-668754554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-668754554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-668754554">
+Employee deleted successfully<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>ninzahrm.employee.EmployeeTest@d35dea7</td></tr>
+<tr>
+<td title='ninzahrm.employee.EmployeeTest.EmployeeDetails()'><b>EmployeeDetails</b><br>Test class: ninzahrm.employee.EmployeeTest<br/>
+<a href="#Output-1312690617" onClick='toggleBox("Output-1312690617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1312690617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1312690617">
+Employee added successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ninzahrm.employee.EmployeeTest@d35dea7</td></tr>
+<tr>
+<td title='ninzahrm.login.LoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: ninzahrm.login.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>ninzahrm.login.LoginTest@74e52ef6</td></tr>
+<tr>
+<td title='ninzahrm.resources.ResourceTest.deleteResource()'><b>deleteResource</b><br>Test class: ninzahrm.resources.ResourceTest<br/>
+<a href="#Output-280541440" onClick='toggleBox("Output-280541440", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280541440" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280541440">
+File Deleted Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>ninzahrm.resources.ResourceTest@7770f470</td></tr>
+<tr>
+<td title='ninzahrm.dashboard.DashboardTest.verifyDashboardLoading()'><b>verifyDashboardLoading</b><br>Test class: ninzahrm.dashboard.DashboardTest<br/>
+<a href="#Output-1491890454" onClick='toggleBox("Output-1491890454", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1491890454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1491890454">
+Dashboard loaded successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ninzahrm.dashboard.DashboardTest@3bd82cf5</td></tr>
+<tr>
+<td title='ninzahrm.dashboard.DashboardTest.verifyEmployeeChart()'><b>verifyEmployeeChart</b><br>Test class: ninzahrm.dashboard.DashboardTest<br/>
+<a href="#Output-217389263" onClick='toggleBox("Output-217389263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-217389263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-217389263">
+Employee chart bars are displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ninzahrm.dashboard.DashboardTest@3bd82cf5</td></tr>
+<tr>
+<td title='ninzahrm.dashboard.DashboardTest.verifyProjectsTable()'><b>verifyProjectsTable</b><br>Test class: ninzahrm.dashboard.DashboardTest<br/>
+<a href="#Output-1534888240" onClick='toggleBox("Output-1534888240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1534888240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1534888240">
+Projects section and table verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ninzahrm.dashboard.DashboardTest@3bd82cf5</td></tr>
+<tr>
+<td title='ninzahrm.employee.EmployeeTest.verifyEmployeeAfterAdding()'><b>verifyEmployeeAfterAdding</b><br>Test class: ninzahrm.employee.EmployeeTest<br/>
+<a href="#Output-224113092" onClick='toggleBox("Output-224113092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-224113092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-224113092">
+New employee verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ninzahrm.employee.EmployeeTest@d35dea7</td></tr>
+<tr>
+<td title='ninzahrm.resources.ResourceTest.verifyResource()'><b>verifyResource</b><br>Test class: ninzahrm.resources.ResourceTest</td>
+<td></td>
+<td>5</td>
+<td>ninzahrm.resources.ResourceTest@7770f470</td></tr>
+</table><p>
+</body>
+</html>

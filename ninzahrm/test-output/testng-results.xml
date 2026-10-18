@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="13" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Dashboard loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Navigation from Employees to Dashboard verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee chart bars are displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee table structure and data verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Projects section and table verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[New employee verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[File Deleted Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-18T06:34:58 IST" name="Suite" finished-at="2026-10-18T06:36:08 IST" duration-ms="69826">
+    <groups>
+      <group name="functional">
+        <method signature="EmployeeTest.deleteEmployee()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" name="deleteEmployee" class="ninzahrm.employee.EmployeeTest"/>
+        <method signature="ResourceTest.verifyResource()[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" name="verifyResource" class="ninzahrm.resources.ResourceTest"/>
+        <method signature="ResourceTest.deleteResource()[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" name="deleteResource" class="ninzahrm.resources.ResourceTest"/>
+        <method signature="DashboardTest.verifyDashboardLoading()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" name="verifyDashboardLoading" class="ninzahrm.dashboard.DashboardTest"/>
+        <method signature="DashboardTest.verifyEmployeeChart()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" name="verifyEmployeeChart" class="ninzahrm.dashboard.DashboardTest"/>
+        <method signature="DashboardTest.verifyEmployeeTable()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" name="verifyEmployeeTable" class="ninzahrm.dashboard.DashboardTest"/>
+        <method signature="DashboardTest.verifyProjectsTable()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" name="verifyProjectsTable" class="ninzahrm.dashboard.DashboardTest"/>
+        <method signature="EmployeeTest.EmployeeDetails()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" name="EmployeeDetails" class="ninzahrm.employee.EmployeeTest"/>
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:ninzahrm.login.LoginTest@74e52ef6]" name="verifyLogin" class="ninzahrm.login.LoginTest"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="DashboardTest.verifyDashboardLoading()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" name="verifyDashboardLoading" class="ninzahrm.dashboard.DashboardTest"/>
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:ninzahrm.login.LoginTest@74e52ef6]" name="verifyLogin" class="ninzahrm.login.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="EmployeeTest.verifyEmployeeAfterAdding()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" name="verifyEmployeeAfterAdding" class="ninzahrm.employee.EmployeeTest"/>
+        <method signature="DashboardTest.verifyDashboardNavigation()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" name="verifyDashboardNavigation" class="ninzahrm.dashboard.DashboardTest"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2026-10-18T06:34:58 IST" name="Test" finished-at="2026-10-18T06:36:08 IST" duration-ms="69826">
+      <class name="ninzahrm.login.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.login.LoginTest@74e52ef6]" started-at="2026-10-18T06:34:58 IST" name="setup" finished-at="2026-10-18T06:35:01 IST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:0, instance:ninzahrm.login.LoginTest@74e52ef6]" started-at="2026-10-18T06:35:01 IST" name="verifyLogin" finished-at="2026-10-18T06:35:02 IST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.login.LoginTest@74e52ef6]" started-at="2026-10-18T06:35:02 IST" name="logout" finished-at="2026-10-18T06:35:03 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ninzahrm.login.LoginTest -->
+      <class name="ninzahrm.employee.EmployeeTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:18 IST" name="setup" finished-at="2026-10-18T06:35:20 IST" duration-ms="1600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmployeeAfterAdding()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:20 IST" name="verifyEmployeeAfterAdding" finished-at="2026-10-18T06:35:26 IST" duration-ms="5935" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[New employee verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeAfterAdding -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:26 IST" name="logout" finished-at="2026-10-18T06:35:26 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:26 IST" name="setup" finished-at="2026-10-18T06:35:28 IST" duration-ms="1564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EmployeeDetails()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:28 IST" name="EmployeeDetails" finished-at="2026-10-18T06:35:30 IST" duration-ms="2011" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Employee added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmployeeDetails -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:30 IST" name="logout" finished-at="2026-10-18T06:35:30 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:30 IST" name="setup" finished-at="2026-10-18T06:35:31 IST" duration-ms="1566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteEmployee()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:31 IST" name="deleteEmployee" finished-at="2026-10-18T06:35:48 IST" depends-on-methods="ninzahrm.employee.EmployeeTest.verifyEmployeeAfterAdding" duration-ms="16407" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Employee deleted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.employee.EmployeeTest@d35dea7]" started-at="2026-10-18T06:35:48 IST" name="logout" finished-at="2026-10-18T06:35:48 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ninzahrm.employee.EmployeeTest -->
+      <class name="ninzahrm.resources.ResourceTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" started-at="2026-10-18T06:35:48 IST" name="setup" finished-at="2026-10-18T06:35:50 IST" duration-ms="1696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResource()[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" started-at="2026-10-18T06:35:50 IST" name="verifyResource" finished-at="2026-10-18T06:35:55 IST" duration-ms="5228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResource -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" started-at="2026-10-18T06:35:55 IST" name="logout" finished-at="2026-10-18T06:35:55 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" started-at="2026-10-18T06:35:55 IST" name="setup" finished-at="2026-10-18T06:35:57 IST" duration-ms="1634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteResource()[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" started-at="2026-10-18T06:35:57 IST" name="deleteResource" finished-at="2026-10-18T06:36:07 IST" depends-on-methods="ninzahrm.resources.ResourceTest.verifyResource" duration-ms="10115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File Deleted Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteResource -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.resources.ResourceTest@7770f470]" started-at="2026-10-18T06:36:07 IST" name="logout" finished-at="2026-10-18T06:36:08 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ninzahrm.resources.ResourceTest -->
+      <class name="ninzahrm.dashboard.DashboardTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:03 IST" name="setup" finished-at="2026-10-18T06:35:04 IST" duration-ms="1627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardLoading()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:04 IST" name="verifyDashboardLoading" finished-at="2026-10-18T06:35:05 IST" duration-ms="780" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dashboard loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardLoading -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:05 IST" name="logout" finished-at="2026-10-18T06:35:05 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:05 IST" name="setup" finished-at="2026-10-18T06:35:07 IST" duration-ms="1757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDashboardNavigation()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:07 IST" name="verifyDashboardNavigation" finished-at="2026-10-18T06:35:08 IST" duration-ms="974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigation from Employees to Dashboard verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardNavigation -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:08 IST" name="logout" finished-at="2026-10-18T06:35:09 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:09 IST" name="setup" finished-at="2026-10-18T06:35:10 IST" duration-ms="1549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmployeeChart()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:10 IST" name="verifyEmployeeChart" finished-at="2026-10-18T06:35:13 IST" duration-ms="2539" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Employee chart bars are displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeChart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:13 IST" name="logout" finished-at="2026-10-18T06:35:13 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:13 IST" name="setup" finished-at="2026-10-18T06:35:15 IST" duration-ms="1681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmployeeTable()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:15 IST" name="verifyEmployeeTable" finished-at="2026-10-18T06:35:15 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Employee table structure and data verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeTable -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:15 IST" name="logout" finished-at="2026-10-18T06:35:16 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:16 IST" name="setup" finished-at="2026-10-18T06:35:17 IST" duration-ms="1572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProjectsTable()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:17 IST" name="verifyProjectsTable" finished-at="2026-10-18T06:35:18 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Projects section and table verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProjectsTable -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ninzahrm.dashboard.DashboardTest@3bd82cf5]" started-at="2026-10-18T06:35:18 IST" name="logout" finished-at="2026-10-18T06:35:18 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ninzahrm.dashboard.DashboardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

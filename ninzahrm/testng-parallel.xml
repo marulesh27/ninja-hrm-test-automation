@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+
+    <parameter name="browser" value="chrome"/>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="ninzahrm.login.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="DashboardTest">
+        <classes>
+            <class name="ninzahrm.dashboard.DashboardTest"/>
+        </classes>
+    </test>
+
+    <test name="EmployeeTest">
+        <classes>
+            <class name="ninzahrm.employee.EmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="ResourceTest">
+        <classes>
+            <class name="ninzahrm.resources.ResourceTest"/>
+        </classes>
+    </test>
+
+</suite>
