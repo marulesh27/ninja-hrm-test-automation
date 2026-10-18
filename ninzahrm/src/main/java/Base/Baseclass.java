@@ -1,7 +1,7 @@
 package Base;
 
 import java.time.Duration;
-
+import org.testng.annotations.Optional;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -39,7 +39,7 @@ public class Baseclass {
 	}
 	@Parameters("browser")
     @BeforeMethod(alwaysRun = true)
-    public void setup(String browser) throws Exception {
+    public void setup(@Optional("chrome")String browser) throws Exception {
         pro = new PropertiesUtility();
         //String browser=pro.getProperty("browser");
         String url = pro.getProperty("url");
