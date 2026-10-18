@@ -59,11 +59,16 @@ public class Baseclass {
         driver.get(url);
         System.out.println("Browser launched");
     }
+ 
+	@AfterMethod(alwaysRun = true)
+	public void logout() {
+    	if (driver != null) {
+        	driver.quit();
+        	driver = null;
+        	System.out.println("Logout executed");
+    	}
+	}
 
-    @AfterMethod(alwaysRun = true)
-    public void logout() {
-        driver.quit();
-        System.out.println("Logout executed");
     }
     @AfterClass
     public void afterClass() {
